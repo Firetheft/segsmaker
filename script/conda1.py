@@ -6,8 +6,8 @@ import requests
 import json
 import os
 
-dls = "https://github.com/gutris1/segsmaker/raw/main/script/pantat88.py"
-dlcss = "https://github.com/gutris1/segsmaker/raw/main/script/pantat88.css"
+dls = "https://github.com/Firetheft/segsmaker/raw/main/script/pantat88.py"
+dlcss = "https://github.com/Firetheft/segsmaker/raw/main/script/pantat88.css"
 cp = "/home/studio-lab-user/.conda/pantat88.css"
 sp = "/home/studio-lab-user/.ipython/profile_default/startup/pantat88.py"
 ewe = "/home/studio-lab-user/.your-civitai-api-key"

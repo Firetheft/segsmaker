@@ -309,7 +309,7 @@ def delete(line):
     delist = [
         '/tmp/*',
         '/tmp',
-        '/asd',
+        '/stable-diffusion-webui-forge',
         '/ComfyUI',
         '/.cache/*',
         '/.config/*',
