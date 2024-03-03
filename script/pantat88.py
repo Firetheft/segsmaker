@@ -294,7 +294,7 @@ def clone(line):
 @register_line_magic
 def tempe(line):
     subprocess.run(
-        f"mkdir -p /tmp/models /tmp/Lora /tmp/ControlNet",
+        f"mkdir -p /tmp/models /tmp/Lora /tmp/svd /tmp/ControlNet",
         shell=True,
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL)
