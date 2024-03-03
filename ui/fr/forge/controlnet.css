@@ -2,7 +2,7 @@
 .download-button,
 .select-all-button,
 .unselect-all-button {
-    font-family: 'Noto Serif Simplified Chinese', Noto Sans Simplified Chinese;
+    font-family: 'Noto Serif Simplified Chinese';
     
 }
 
@@ -30,7 +30,7 @@
 }
 
 .download-button {
-    margin-top: 390px;
+    margin-top: 10px;
     margin-right: 30px;
     margin-bottom: 0px;
     margin-left: 100px;
@@ -51,7 +51,7 @@
 }
 
 .select-all-button {
-    margin-top: 390px;
+    margin-top: 10px;
     margin-right: -30px;
     margin-bottom: 0px;
     margin-left: 30px;
@@ -71,7 +71,7 @@
 }
 
 .unselect-all-button {
-    margin-top: 390px;
+    margin-top: 10px;
     margin-right: -30px;
     margin-bottom: 0px;
     margin-left: 20px;
@@ -109,7 +109,7 @@
 .border-style {
     position: absolute;
     display: block;
-    bottom: -440px;
+    bottom: -10px;
     left: 49%;
     transform: translateX(-50%);
     width: 600px;
