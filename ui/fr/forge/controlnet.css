@@ -2,17 +2,16 @@
 .download-button,
 .select-all-button,
 .unselect-all-button {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Noto Serif Simplified Chinese', Noto Sans Simplified Chinese;
     
 }
 
 .boks {
     border: 3px solid transparent;
-    height: 700px;
     border-radius: 15px;
     padding: 5px;
     margin: 0;
-    background: url('https://bu.dusays.com/2024/03/03/65e37af248c32.jpg');
+    background: url('https://bu.dusays.com/2024/03/02/65e31b16cf912.jpg');
     background-size: 110% 110%;
     background-position: 50% 80%;
     overflow: visible;
@@ -226,7 +225,7 @@
         opacity: 0;
     }
     to {
-        height: 630px;
+        height: 450px;
         opacity: 1;
     }
 }
