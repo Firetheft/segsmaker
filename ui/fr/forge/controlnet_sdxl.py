@@ -156,7 +156,7 @@ bs.add_class("border-style")
 bl = widgets.HBox([sab, usab, db, bs])
 boks = widgets.VBox([bl, cbc])
 boks.layout.width = '630px'
-boks.layout.height = '630px'
+boks.layout.height = '520px'
 boks.layout.padding = '0px'
 boks.add_class("boks")
 display(boks)
