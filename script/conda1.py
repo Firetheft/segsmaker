@@ -14,10 +14,10 @@ ewe = "/home/studio-lab-user/.your-civitai-api-key"
 uwaaah = os.path.join(ewe, "api_key.json")
 
 susu = widgets.Output()
-sb = widgets.Button(description="Save")
+sb = widgets.Button(description="保存")
 sb.add_class("save-button")
 
-ink = widgets.Text(placeholder='enter your civitai API KEY here')
+ink = widgets.Text(placeholder='在这里输入你的 Civitai API KEY !')
 ink.add_class("api-input")
 
 boxs = VBox([ink, sb], layout=Layout(
