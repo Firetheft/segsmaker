@@ -1,5 +1,6 @@
 git clone --depth 1 https://github.com/layerdiffusion/sd-forge-layerdiffuse
 git clone --depth 1 https://github.com/Physton/sd-webui-prompt-all-in-one
-git clone --depth 1 https://github.com/Firetheft/Stylez
+git clone --depth 1 https://github.com/Firetheft/sd-webui-next-style
 git clone --depth 1 https://github.com/hanamizuki-ai/stable-diffusion-webui-localization-zh_Hans
 git clone --depth 1 https://github.com/zanllp/sd-webui-infinite-image-browsing
+git clone --depth 1 https://github.com/thomasasfk/sd-webui-aspect-ratio-helper
