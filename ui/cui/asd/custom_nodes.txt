@@ -4,8 +4,6 @@ git clone https://github.com/11cafe/comfyui-workspace-manager
 git clone https://github.com/AIGODLIKE/AIGODLIKE-ComfyUI-Translation
 git clone https://github.com/crystian/ComfyUI-Crystools
 git clone https://github.com/yolain/ComfyUI-Easy-Use
-git clone https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet
-git clone https://github.com/17Retoucher/ComfyUI_Fooocus
 git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts
 git clone https://github.com/city96/SD-Latent-Upscaler
 git clone https://github.com/jags111/efficiency-nodes-comfyui
