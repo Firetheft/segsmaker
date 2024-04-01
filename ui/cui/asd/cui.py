@@ -3,6 +3,7 @@ import os
 
 minyak = [
     ['rm', '-rf', '~/tmp/*', '~/tmp', '~/ComfyUI/models/checkpoints/tmp_models', '~/ComfyUI/models/loras/tmp_Lora', '~/ComfyUI/models/controlnet', '~/ComfyUI/models/diffusers'],
+    ['mkdir -p ~/ComfyUI/models/diffusers'],
     ['ln', '-vs', '/tmp', '~/tmp'],
     ['ln', '-vs', '/tmp/models', '~/ComfyUI/models/checkpoints/tmp_models'],
     ['ln', '-vs', '/tmp/Lora', '~/ComfyUI/models/loras/tmp_Lora'],
