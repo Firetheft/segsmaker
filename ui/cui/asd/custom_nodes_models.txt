@@ -14,4 +14,6 @@ https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.
 https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
 https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
 https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors ~/ComfyUI/models/clip_vision 1-5-image-encoder.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors ~/ComfyUI/models/clip_vision clip_vision_ipadapter_SD15.safetensors
+https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors ~/ComfyUI/models/clip_vision clip_vision_coadapter_SD15.safetensors
+https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/coadapter-style-sd15v1.pth ~/ComfyUI/models/style_models coadapter-style-sd15v1.pth
