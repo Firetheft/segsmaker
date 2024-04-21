@@ -18,3 +18,4 @@ https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.sa
 https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors ~/ComfyUI/models/clip_vision clip_vision_coadapter_SD15.safetensors
 https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/coadapter-style-sd15v1.pth ~/ComfyUI/models/style_models coadapter-style-sd15v1.pth
 https://huggingface.co/Iceclear/StableSR/resolve/main/webui_768v_139.ckpt ~/ComfyUI/models/stablesr
+https://huggingface.co/disambo/segsmaker/resolve/main/light_leak.pkl ~/ComfyUI/models/layerstyle
