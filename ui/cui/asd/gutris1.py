@@ -189,7 +189,7 @@ def clone(line):
             
 def tempe(line):
     subprocess.run(
-        f"mkdir -p /tmp/models /tmp/Lora /tmp/ControlNet",
+        f"mkdir -p /tmp/checkpoints /tmp/loras /tmp/vae /tmp/controlnet /tmp/diffusers",
         shell=True,
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL)

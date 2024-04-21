@@ -2,12 +2,12 @@ import subprocess
 import os
 
 minyak = [
-    ['rm', '-rf', '~/tmp/*', '~/tmp', '~/ComfyUI/models/checkpoints/tmp_models', '~/ComfyUI/models/loras/tmp_Lora', '~/ComfyUI/models/vae/tmp_vae', '~/ComfyUI/models/controlnet', '~/ComfyUI/models/diffusers'],
+    ['rm', '-rf', '~/tmp/*', '~/tmp', '~/ComfyUI/models/checkpoints/tmp_checkpoints', '~/ComfyUI/models/loras/tmp_loras', '~/ComfyUI/models/vae', '~/ComfyUI/models/controlnet', '~/ComfyUI/models/diffusers'],
     ['ln', '-vs', '/tmp', '~/tmp'],
-    ['ln', '-vs', '/tmp/models', '~/ComfyUI/models/checkpoints/tmp_models'],
-    ['ln', '-vs', '/tmp/Lora', '~/ComfyUI/models/loras/tmp_Lora'],
-    ['ln', '-vs', '/tmp/vae', '~/ComfyUI/models/vae/tmp_vae'],
-    ['ln', '-vs', '/tmp/ControlNet', '~/ComfyUI/models/controlnet'],
+    ['ln', '-vs', '/tmp/checkpoints', '~/ComfyUI/models/checkpoints/tmp_checkpoints'],
+    ['ln', '-vs', '/tmp/loras', '~/ComfyUI/models/loras/tmp_loras'],
+    ['ln', '-vs', '/tmp/vae', '~/ComfyUI/models/vae'],
+    ['ln', '-vs', '/tmp/controlnet', '~/ComfyUI/models/controlnet'],
     ['ln', '-vs', '/tmp/diffusers', '~/ComfyUI/models/diffusers'],
     ['unzip', '-o', '~/ComfyUI/models/embeddings.zip', '-d', '~/ComfyUI/models/embeddings'],
     ['rm', '~/ComfyUI/models/embeddings.zip']
