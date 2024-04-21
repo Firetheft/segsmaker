@@ -6,18 +6,18 @@ import requests
 import json
 import os
 
-dls = "https://github.com/gutris1/segsmaker/raw/main/script/pantat88.py"
-dlcss = "https://github.com/gutris1/segsmaker/raw/main/script/pantat88.css"
+dls = "https://github.com/Firetheft/segsmaker/raw/main/script/pantat88.py"
+dlcss = "https://github.com/Firetheft/segsmaker/raw/main/script/pantat88.css"
 cp = "/home/studio-lab-user/.conda/pantat88.css"
 sp = "/home/studio-lab-user/.ipython/profile_default/startup/pantat88.py"
 ewe = "/home/studio-lab-user/.your-civitai-api-key"
 uwaaah = os.path.join(ewe, "api_key.json")
 
 susu = widgets.Output()
-sb = widgets.Button(description="Save")
+sb = widgets.Button(description="保存")
 sb.add_class("save-button")
 
-ink = widgets.Text(placeholder='enter your civitai API KEY here')
+ink = widgets.Text(placeholder='在这里输入你的 Civitai API KEY !')
 ink.add_class("api-input")
 
 boxs = VBox([ink, sb], layout=Layout(
