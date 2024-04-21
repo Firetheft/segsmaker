@@ -9,11 +9,11 @@ https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltDown.ckpt ~/C
 https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltUp.ckpt ~/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_lora
 https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt ~/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_lora
 https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomOut.ckpt ~/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_lora
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors ~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus/models
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors ~/ComfyUI/models/ipadapter
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light_v11.bin ~/ComfyUI/models/ipadapter
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors ~/ComfyUI/models/ipadapter
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors ~/ComfyUI/models/ipadapter
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors ~/ComfyUI/models/ipadapter
 https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors ~/ComfyUI/models/clip_vision clip_vision_ipadapter_SD15.safetensors
 https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors ~/ComfyUI/models/clip_vision clip_vision_coadapter_SD15.safetensors
 https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/coadapter-style-sd15v1.pth ~/ComfyUI/models/style_models coadapter-style-sd15v1.pth
