@@ -2,10 +2,14 @@ import subprocess
 import os
 
 minyak = [
-    ['rm', '-rf', '~/tmp/*', '~/tmp', '~/ComfyUI/models/checkpoints/tmp_checkpoints', '~/ComfyUI/models/loras/tmp_loras', '~/ComfyUI/models/vae', '~/ComfyUI/models/controlnet', '~/ComfyUI/models/diffusers'],
-    ['ln', '-vs', '/tmp', '~/tmp'],
-    ['ln', '-vs', '/tmp/checkpoints', '~/ComfyUI/models/checkpoints/tmp_checkpoints'],
-    ['ln', '-vs', '/tmp/loras', '~/ComfyUI/models/loras/tmp_loras'],
+    ['rm', '-rf', '~/tmp/*', '~/tmp', '~/ComfyUI/models/checkpoints', '~/ComfyUI/models/loras', '~/ComfyUI/models/vae', '~/ComfyUI/models/controlnet', '~/ComfyUI/models/diffusers'],
+    ['mkdir -p ~/ComfyUI/models/checkpoints'], 
+    ['mkdir -p ~/ComfyUI/models/loras'], 
+    ['mkdir -p ~/ComfyUI/models/vae'],   
+    ['mkdir -p ~/ComfyUI/models/controlnet'],
+    ['mkdir -p ~/ComfyUI/models/diffusers'],
+    ['ln', '-vs', '/tmp/checkpoints', '~/ComfyUI/models/checkpoints'],
+    ['ln', '-vs', '/tmp/loras', '~/ComfyUI/models/loras'],
     ['ln', '-vs', '/tmp/vae', '~/ComfyUI/models/vae'],
     ['ln', '-vs', '/tmp/controlnet', '~/ComfyUI/models/controlnet'],
     ['ln', '-vs', '/tmp/diffusers', '~/ComfyUI/models/diffusers'],
