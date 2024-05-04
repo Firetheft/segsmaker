@@ -3,7 +3,7 @@ import os
 
 minyak = [
     ['rm', '-rf', '~/tmp/*', '~/tmp', '~/ComfyUI/models/checkpoints', '~/ComfyUI/models/loras', '~/ComfyUI/models/vae', '~/ComfyUI/models/controlnet', '~/ComfyUI/models/diffusers'],
-    ['mkdir', '-p', '~/stable-diffusion-webui-forge/models/ipadapter'],
+    ['mkdir', '-p', '~/ComfyUI/models/ipadapter'],
     ['ln', '-vs', '/tmp', '~/tmp'],
     ['ln', '-vs', '/tmp/checkpoints', '~/ComfyUI/models/checkpoints'],
     ['ln', '-vs', '/tmp/loras', '~/ComfyUI/models/loras'],
